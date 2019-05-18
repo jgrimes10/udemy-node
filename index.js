@@ -1,4 +1,5 @@
 // require dependencies
+require('dotenv').config();
 const express = require('express');
 
 // set up the app
@@ -14,6 +15,6 @@ app.get('/api/courses', (req, res) => {
 });
 
 // start the server
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
    console.log('Listening on port 3000');
 });
