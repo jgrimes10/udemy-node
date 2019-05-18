@@ -10,11 +10,14 @@
     "listen": "nodemon index"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
-    "express": "^4.17.0"
+    "express": "^4.17.0",
+    "joi": "^14.3.1"
   },
   "devDependencies": {
     "@types/express": "^4.16.1",
+    "@types/joi": "^14.3.3",
     "@types/mongodb": "^3.1.27",
     "@types/mongoose": "^5.5.1",
     "nodemon": "^1.19.0"
