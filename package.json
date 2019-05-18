@@ -1,0 +1,21 @@
+{
+  "name": "udemy-node",
+  "version": "1.0.0",
+  "description": "Node API application from udemy tutorial \"Node.js: The Complete Guide to Build RESTful APIs (2018)\"",
+  "main": "index.js",
+  "repository": "https://github.com/jgrimes10/udemy-node.git",
+  "author": "jgrimes10 <uY2&J4fdPi5#>",
+  "license": "MIT",
+  "scripts": {
+    "listen": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/mongodb": "^3.1.27",
+    "@types/mongoose": "^5.5.1",
+    "nodemon": "^1.19.0"
+  }
+}
